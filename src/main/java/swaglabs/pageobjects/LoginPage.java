@@ -10,13 +10,4 @@ public class LoginPage {
     public LoginPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
-
-    @FindBy(css = "#user-name")
-    public WebElement userName;
-
-    @FindBy(css = "#password")
-    public WebElement password;
-
-    @FindBy(css = "#login-button")
-    public WebElement logInButton;
 }
