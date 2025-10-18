@@ -10,6 +10,7 @@ public class SwagLabsHomePage {
     public SwagLabsHomePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
+    
     @FindBy(css = "#add-to-cart-sauce-labs-backpack")
     public WebElement addToCartOfsauceLabsBackpack;
 
