@@ -13,10 +13,10 @@ public class LoginPage {
 
     @FindBy(css = "#user-name")
     public WebElement userName;
-
+#cut
     @FindBy(css = "#password")
     public WebElement password;
-
+#cut
     @FindBy(css = "#login-button")
     public WebElement logInButton;
 }
